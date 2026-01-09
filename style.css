@@ -1,0 +1,54 @@
+/* Reset i podstawy */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #222;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 1.1em;
+  color: #555;
+}
+section {
+  margin-bottom: 30px;
+}
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+ul {
+  list-style: disc inside;
+  margin-left: 20px;
+}
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
